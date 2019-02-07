@@ -77,9 +77,9 @@ enum source_type {
 响应格式基本结构如下:
 ```json
 {
-	"state": 1 或者0,
-	"code": 具体状态码,
-	”msg“: 说明内容,
+	"state": "1或者0",
+	"code": "具体状态码",
+	"msg": "说明内容",
 	"data": {
 		按照具体请求的东西来
 	}
@@ -119,7 +119,7 @@ enum source_type {
 ```json
 {
  	"username": "用户名",
- 	"salt": “1-65536的随机数盐”,
+ 	"salt":“1-65536的随机数盐”,
  	"password": "sha512(sha512(password)+salt)"
 }
 ```
@@ -152,7 +152,7 @@ enum source_type {
 {
 	"state": "",
 	"code": "",
-	"msg", "",
+	"msg":"",
 	"data": {
 		"username": "",
 		"avatarpath":"",
